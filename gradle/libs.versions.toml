@@ -12,6 +12,10 @@ composeBom = "2026.09.00"
 #hilt
 ksp = "2.1.0-1.0.29"
 hilt = "2.60.1"
+hiltNavigationCompose = "1.4.0"
+
+#mlkit
+genaiPrompt = "1.0.0-beta4"
 
 [libraries]
 
@@ -33,6 +37,13 @@ androidx-compose-material3 = { group = "androidx.compose.material3", name = "mat
 #hilt
 hilt-android = { group = "com.google.dagger", name = "hilt-android", version.ref = "hilt" }
 hilt-compiler = { group = "com.google.dagger", name = "hilt-android-compiler", version.ref = "hilt" }
+androidx-hilt-navigation-compose = { group = "androidx.hilt", name = "hilt-navigation-compose", version.ref = "hiltNavigationCompose" }
+
+#lifecycle
+androidx-lifecycle-runtime-compose = { group = "androidx.lifecycle", name = "lifecycle-runtime-compose", version.ref = "lifecycleRuntimeKtx" }
+
+#mlkit
+mlkit-genai-prompt = { group = "com.google.mlkit", name = "genai-prompt", version.ref = "genaiPrompt" }
 
 
 [plugins]
